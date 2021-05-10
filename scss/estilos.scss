@@ -1,0 +1,91 @@
+
+$default_color: rgb(245, 61, 174);
+
+div {
+    color: $default_color;
+
+
+    p{
+        text-align: center;
+		color: rgb(157, 238, 157);
+
+    }
+}
+
+.element {
+	background-color: $default_color;
+    color: rgb(231, 49, 201);
+    text-align: center;
+    text-decoration: underline;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: rgb(235, 83, 83);
+    }
+
+
+
+
+}
+
+
+$fondo: white;
+$un_color: rgb(219, 94, 192);
+
+.pruebaif {
+	@if $fondo == black {
+		color: rgb(219, 94, 192)
+	} 
+	@else {
+		color: rgb(235, 18, 18)
+	}
+}
+
+
+
+@if $un_color == red {
+
+	div {
+		background-color: $un_color
+	}
+
+}
+
+
+
+
+@for $vueltas from 1 through 4 {
+	.bucle {
+		content: '#{$vueltas}'
+	}
+}
+
+
+$conjunto: roja, azul, verde, amarillo;
+
+@each $color in $conjunto {
+	.caja_#{$color} {
+		background-color: grey
+	}
+}
+
+
+
+$mapeado:
+	'primary' rgb(226, 120, 120),
+	'secundary' blue,
+	'light' grey;
+
+@each $tipo, $color in $mapeado {
+
+	.btn__#{$tipo} {
+		background-color: $color
+	}
+
+}
+
+
+
+
+
+

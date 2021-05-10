@@ -1,0 +1,70 @@
+div {
+  color: #f53dae;
+}
+
+div p {
+  text-align: center;
+  color: #9dee9d;
+}
+
+.element {
+  background-color: #f53dae;
+  color: #e731c9;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.element:hover {
+  background-color: #eb5353;
+}
+
+.pruebaif {
+  color: #eb1212;
+}
+
+.bucle {
+  content: "1";
+}
+
+.bucle {
+  content: "2";
+}
+
+.bucle {
+  content: "3";
+}
+
+.bucle {
+  content: "4";
+}
+
+.caja_roja {
+  background-color: grey;
+}
+
+.caja_azul {
+  background-color: grey;
+}
+
+.caja_verde {
+  background-color: grey;
+}
+
+.caja_amarillo {
+  background-color: grey;
+}
+
+.btn__primary {
+  background-color: #e27878;
+}
+
+.btn__secundary {
+  background-color: blue;
+}
+
+.btn__light {
+  background-color: grey;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,394 @@
+body {
+	color: #12192b;
+	font-size :15px;
+	font-family: "Circular Std", "Roboto" ; 
+
+
+}
+
+div .titulo {
+ 	color: #ffffff;
+	font-weight:  500;
+	font-size : 30px;
+	text-align: center;
+	margin-top: 200px ;
+
+
+}
+
+
+
+#texto {
+	color: #00c9dc;
+	text-align: center;
+	font-size : 30px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+
+}
+
+
+
+
+#cabecera{
+	display: flex; 
+
+
+}
+
+#backgroundwhite {
+	background-image: url(../imagenes/backgroundwhite.jpg);
+
+}
+
+
+
+.logo {
+	box-sizing: border-box;
+	vertical-align: left;
+	margin-top: 20px;
+	margin-left: 50px;
+	padding-left: 10px;
+	width: 20px;
+	display: inline-block;
+
+} 
+
+.titulo h1 {
+	color: #12192b;
+	text-align: left;
+	margin-top: 150px ;
+	font-size: 72px;
+	line-height: 70px;
+	margin-left: 600px;
+	transform: translate(0px, 0px);
+	
+}
+
+
+.lineblackbanner{
+
+	background-color: #12192b;
+    height: 1px;
+    width: 150px;
+    position: right;
+	margin-left: 780px;
+	margin-top: 60px;
+}
+
+.bannerprincipal {
+	background-image: url(../imagenes/workshopsimg.jpg);
+	background-size: 53%;
+	padding-top: 0px;
+	padding-bottom: 60px; 
+	background-repeat: no-repeat;
+	height: 600px;
+	
+
+
+}
+
+
+/* menu */
+
+
+#menu nav a {
+	color: #12192b;
+	text-decoration: none;
+
+}
+
+#menu nav {
+
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 90%;
+	text-align: right;
+	display: block;
+}
+
+
+#menu nav li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#menu nav a:hover {
+	color: #00c9dc;
+}
+
+
+#menu nav ul {
+	
+	position: relative;
+}
+
+#menu nav ul > li {
+	position: relative;
+}
+
+#menu nav ul > li:hover ul {
+	display: block;
+}
+
+#menu nav ul ul {
+	display: none;
+	padding: 10px;
+	text-align: left;
+	width: 200px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+#menu nav ul ul li {
+	display: block;
+	position: relative;
+}
+
+#todofooter {
+	margin-top: 40px;
+	
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+
+}
+
+
+
+
+#todofooter .volverarriba {
+	position: absolute;
+	width: 80%;
+	text-align: right;
+	display: block;
+
+
+	color: #12192b;
+
+	
+}
+
+#todofooter .copy {
+
+	position: absolute;
+	width: 90%;
+	text-align: right;
+	display: block;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+
+	color: #12192b;
+
+	
+}
+
+#todofooter .volverarriba:hover {
+	color: #00c9dc;
+
+	
+}
+
+#todofooter .contacto__text {
+	margin-left: 360px;
+	margin-top: 10px;
+	color: #12192b;
+	font-size: 15px;
+	
+
+	
+
+
+
+}
+
+
+
+.redes-container{
+	margin-left: 87px;
+	position: absolute;
+	align-items: center;
+	justify-content: left;
+}
+
+.redes-container ul li{
+	display: inline-block;
+	margin: 0 5px;
+	width: 40px;
+	height: 50px;
+	text-align: center;
+}
+
+.redes-container ul li a{
+	
+	display: block;
+	padding: 0 0px;
+	background-color: #333;
+	color: white;
+	line-height: 40px;
+	font-size: 18px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+	transition: .2s;
+}
+
+
+
+.redes-container ul:hover a{
+	filter:blur(1px);
+}
+
+.redes-container ul li a:hover{
+	transform: translate(-3px) scale(1.05);
+	box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+	filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+	background-color: #00c9dc;
+}
+
+.redes-container ul li .instagram:hover{
+	background-color: #00c9dc;
+}
+
+.redes-container ul li .linkedin:hover{
+	background-color: #00c9dc;
+}
+.redes-container ul li .mail:hover{
+	background-color: #00c9dc;
+}
+
+
+
+
+.banner__titulo {
+	color: #b1b1b1;
+	text-align: center;
+
+
+}
+
+
+.workshops {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 30px;
+	
+
+
+	}
+
+.Workshops__w1 {
+	position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px 40px 56px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+	margin-top: 20px;
+
+    }
+
+ .Workshops__w2 {
+	position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px 40px 32px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+
+.Workshops__w3 {
+	position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px 40px 80px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+.Workshops__w3 {
+	position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px 40px 80px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+.Workshops__w4 {
+	position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px 40px 80px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+
+.Workshops__w5 {
+	position: relative;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px 40px 80px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+	
+.Workshops__img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+@media ( max-width: 991px ) {
+
+	.workshops {
+		
+		flex-wrap: wrap;
+		width: 100%;
+
+	}
+
+
+
+
+
+
+
+
+
